@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+}
+
+::selection {
+  background-color: #f55a3d;
+  color: #ffffff;
+}
+
+a {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-paper;
+}
+
+.texture-divider {
+  @apply relative my-8 h-px bg-ink/10;
+}
+
+.texture-divider::after {
+  content: "";
+  @apply absolute -top-2 left-1/2 h-4 w-24 -translate-x-1/2 rounded-full bg-mint/60;
+}
+
+.pixel-dot {
+  box-shadow: 0 0 0 2px currentColor;
+}

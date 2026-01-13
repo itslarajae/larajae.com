@@ -1,0 +1,10 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f4ef" />
+  <rect x="50" y="50" width="700" height="500" rx="40" fill="#ffffff" stroke="#101010" stroke-opacity="0.15" />
+  <text x="50%" y="45%" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#101010">
+    Note Placeholder
+  </text>
+  <text x="50%" y="55%" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#101010" opacity="0.6">
+    Cover ${i}
+  </text>
+</svg>
